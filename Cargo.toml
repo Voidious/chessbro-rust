@@ -1,0 +1,12 @@
+[package]
+name = "chessbro-rust"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+chess = "3.2"
+rand = "0.8"
+
+[profile.release]
+opt-level = 3
+lto = true
